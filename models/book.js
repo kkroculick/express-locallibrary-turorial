@@ -17,5 +17,11 @@ BookSchema
         return '/catalog/book/' + this._id;
     });
 
+/*BookSchema
+    .virtual('count')
+    .get( function () {
+        return BookSchema.count();
+    });*/
+
 //Export model
 module.exports = mongoose.model('Book', BookSchema);
