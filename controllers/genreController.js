@@ -1,6 +1,6 @@
 var Genre = require('../models/genre');
 var Book = require('../models/book');
-var async = require('../node_modules/async');
+var async = require('async');
 var mongoose = require('mongoose');
 
 
